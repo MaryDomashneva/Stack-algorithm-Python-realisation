@@ -8,3 +8,9 @@ class Stack(object):
 
     def push(self, element):
         return self.stack_list.append(element)
+
+    def pop(self):
+        return self.stack_list.pop()
+
+    def peek(self):
+        return self.stack_list[-1]
