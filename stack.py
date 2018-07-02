@@ -10,7 +10,13 @@ class Stack(object):
         return self.stack_list.append(element)
 
     def pop(self):
+        if self.is_empty():
+            return None
+
         return self.stack_list.pop()
 
     def peek(self):
+        if self.is_empty():
+            return None
+
         return self.stack_list[-1]
