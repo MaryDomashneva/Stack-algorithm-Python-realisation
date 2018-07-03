@@ -7,7 +7,7 @@ You can only:
 * pop - remove top element, and
 * peek - select top element without popping it off.
 
-## Why important?
+#### Why important?
 
 In many algorithms you want to add objects to a temporary list at some point and then pull them off this list again at a later time. Often the order in which you add and remove these objects matters.
 
